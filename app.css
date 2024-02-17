@@ -1,0 +1,19 @@
+.direction {
+    display: flex; /* Display children side by side */
+    align-items: center; /* Align children vertically center */
+    margin-bottom: 5px; /* Optional: Add margin for spacing between items */
+}
+
+body {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    width: 100%; /* Set the width to 100% of its containing element */
+  
+    border-top: 1.5px solid black; /* Add a 1px solid black top border */
+    margin: 25px 0; /* Add some vertical margin for spacing */
+}
